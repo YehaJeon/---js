@@ -29,7 +29,7 @@ function onLoginSubmit(event) {
     event.preventDefault();
     const username = loginInput.value;
     loginForm.classList.add(HIDDEN_CLASSNAME);
-    greeting.innerText = "Hello" + username;
+    greeting.innerText = "Hello " + username;
     greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
@@ -40,15 +40,13 @@ loginForm.addEventListener("submit", onLoginSubmit);
 
 
 
-// const link = document.querySelector("a");
+const link = document.querySelector("a");
 
 
-// function onLoginSubmit(event) {
-//     event.preventDefault();
-//     const username = loginInput.value;
-//     loginForm.classList.add("hidden");
-//     console.log(username);
-// }
+function handleLinkClick(event) {
+    event.preventDefault();
 
-// link.addEventListener("click", handleLinkClick); 
+}
+
+link.addEventListener("click", handleLinkClick); 
 
