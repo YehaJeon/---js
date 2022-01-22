@@ -34,20 +34,30 @@ function onLoginSubmit(event) {
     greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
-loginForm.addEventListener("submit", onLoginSubmit);
 
 
+const savedUsername = localStorage.getItem("username")
 
-
-
-
-const link = document.querySelector("a");
-
-
-function handleLinkClick(event) {
-    event.preventDefault();
+if (savedUsername === null) { 
+    loginForm.classList.remove(HIDDEN_CLASSNAME);
+    loginForm.addEventListener("submit", onLoginSubmit);
+}else {
+    greeting.classList.remove(HIDDEN_CLASSNAME);
+    greeting.innerText = "Hello  " + username;
 
 }
 
-link.addEventListener("click", handleLinkClick); 
+
+
+
+
+// const link = document.querySelector("a");
+
+
+// function handleLinkClick(event) {
+//     event.preventDefault();
+
+// }
+
+// link.addEventListener("click", handleLinkClick); 
 
