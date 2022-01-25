@@ -1,0 +1,10 @@
+const images = ["1.jpg","2.jpg","어햎1.jpg"];
+
+const chosenImages = images[Math.floor(Math.random()*images.length)];
+
+const bgImage = document.createElement("img");
+
+bgImage.src = `img/${chosenImages}`
+
+console.log(bgImage)
+
