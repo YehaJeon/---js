@@ -3,10 +3,13 @@ const toDoInput = document.querySelector("#todo-form  input");
 const toDoList = document.querySelector("#todo-list");
 
 function paintToDo(newTodo){
-    const li = document.createElement("li")
+    const li = document.createElement("li");
     const span = document.createElement("span");
+    const button = document.createElement("button");
+    button.innerText = "❌";
     li.appendChild(span);
-    span.innerText = newTodo
+    li.appendChild(button);
+    span.innerText = newTodo;
     toDoList.appendChild(li);
 }
 
