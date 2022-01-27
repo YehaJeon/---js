@@ -12,6 +12,7 @@ function saveToDos(){
 
 function deleteToDo(event) {
     const li= event.target.parentElement;
+    toDos = toDos.filter(toDo)
     li.remove();
 }
 
@@ -53,3 +54,4 @@ if( savedToDos !==null ){
     parsedToDos.forEach(paintToDo);
 }
 
+[]  
