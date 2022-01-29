@@ -17,45 +17,56 @@
     z-index: -1;
 }
 
-#login-form {
-    position:absolute;
-    top: 300px;
-    left: 425px;
-    
-}
-
-
-
-#weather {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:white;
-}
-
 #clock {
     display: flex;
     justify-content: center;
     align-items: center;
+    top:30px;
+    font-size: 80px;
+    color:rgb(188, 136, 223);  
 }
+
+
+#login-form {
+    position:absolute;
+    top: 180px;
+    left: 1150px;
+    
+}
+
+h1 {
+    
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    top: 30px;
+}
+
+#weather {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
 
 #qText {
     display: flex;
     justify-content: center;
-    align-items: center;
-    color: blueviolet;
+    /* align-items: center; */
+    color: rgb(51, 93, 192);
 }
 
 #qTitle {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 #todo-form {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 #todo-list {
@@ -64,5 +75,10 @@
 }
 
 #todayWeather {
-
+ color: brown;
 }
+
+#place {
+    top: 50px;
+}
+
