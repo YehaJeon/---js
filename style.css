@@ -1,22 +1,65 @@
 .hidden {
     display: none;
-};
+}
 
-img {
+/* html{
+    width:100vw;
+    height: 100vh;
+} */
+
+
+.bgImage {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     top: 0;
     left: 0;
     z-index: -1;
-};
+}
 
 #login-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-};
+    position:absolute;
+    top: 300px;
+    left: 425px;
+    
+}
 
 #quote {
     color: aqua;
+}
+
+#weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+#clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#qText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#qTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#todo-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#todo-list {
+    position:absolute;
+    top: 400px;
 }

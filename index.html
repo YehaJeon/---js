@@ -1,8 +1,8 @@
 <!DOCTYPE html>  
 <html lang="en">
 <head>
-    <link href="style.css" rel="stylesheet">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>momentum</title>
 </head>
 <body>
     <form class="hidden" id="login-form">
@@ -14,17 +14,12 @@
          />
          <button>Log In</button> 
     </form>
-    <form id="todo-form">
-        <input type="text" placeholder="Write a To Do and Press Enter." required />
-    </form>
-    <ul id="todo-list">
-      
-    </ul>
+    
     <div id="quote">
-        <span>
+        <span id="qText">
 
         </span>
-        <span>
+        <span id="qTitle">
 
         </span>
     </div> 
@@ -38,7 +33,13 @@
 
     <h1 id="greeting" class="hidden"></h1>
     <h2 id="clock"></h2>
+    <form id="todo-form">
+        <input type="text" placeholder="Write a To Do and Press Enter." required />
+    </form>
     
+    <ul id="todo-list">
+      
+    </ul>
     <script src="JS/greetings.js"></script>
     <script src="JS/clock.js"></script>
     <script src="JS/quotes.js"></script>
