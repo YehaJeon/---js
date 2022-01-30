@@ -4,8 +4,8 @@
 
 #cd{
     position:absolute;
-    left: 630px;
-    top: 95px;
+    left: 620px;
+    top: 40px;
 }
 
 
@@ -31,8 +31,8 @@
 
 #login-form {
     position:absolute;
-    top: 320px;
-    left: 556px;
+    top: 300px;
+    left: 560px;
     
 }
 
@@ -43,12 +43,13 @@
     border-right-width:0;
     border-top-width:0;
     border-bottom-width:1;
+    font-family: 'Nanum Myeongjo', serif;
 }
 
 h1 {
     position:absolute;
-    top: 310px;
-    left: 575px;
+    top: 300px;
+    left: 578px;
     font-size: 15px;
     font-family: 'Gowun Dodum', sans-serif;
     color: rgb(110, 107, 104);
@@ -57,7 +58,7 @@ h1 {
 #weather {
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 170px;
     font-family: 'Zen Kurenaido', sans-serif;
     font-size: 12px;
 }
@@ -73,20 +74,21 @@ h1 {
 #qText {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: flex-end;
     color: rgb(96, 113, 124);
     font-size: 13px;
-    
+    margin-top: 180px;
+
 }
 
 #qTitle {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     font-size: 10px;
-    margin-top: 5px;
     color: indigo;
+    margin-top: 5px;
 }
+
 
 #todo-form {
     display: flex;
@@ -100,17 +102,22 @@ h1 {
     border-left-width:0;
     border-right-width:0;
     border-top-width:0;
-    border-bottom-width:0.3;
+    border-bottom-width:0.2;
+    font-family: 'Nanum Myeongjo', serif;
     
 }
 
 #todo-list {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    flex-direction: column;
     
-    
+    position: absolute;
+    left:620px;
+    font-family: 'Nanum Myeongjo', serif;
+    list-style: none;
+    padding: 0;
+}
+
+input::placeholder {
+    text-align: center;
 }
 
 .button {
