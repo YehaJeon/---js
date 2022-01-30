@@ -3,9 +3,12 @@
 }
 
 #cd{
-    position:absolute;
+    display: flex;
+    justify-content: center;
+    /* position:absolute;
     left: 620px;
-    top: 40px;
+    top: 40px; */
+    margin-top: 50px;
 }
 
 
@@ -58,7 +61,7 @@ h1 {
 #weather {
     display: flex;
     justify-content: center;
-    margin-top: 170px;
+    margin-top: 80px;
     font-family: 'Zen Kurenaido', sans-serif;
     font-size: 12px;
 }
