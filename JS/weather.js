@@ -11,8 +11,11 @@ function onGeoOk(position) {
         weather.innerText = `| ☁︎ ${data.weather[0].main} |🌡${data.main.temp} |  `
     })
 }
+
 function onGeoError() {
+
     console.log("can't find you");  
+    
 }
 
 navigator.geolocation.getCurrentPosition(onGeoOk,onGeoError)
